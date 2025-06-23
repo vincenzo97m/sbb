@@ -1,0 +1,68 @@
+/* Font Face */
+@font-face {
+  font-family: 'Grashrock';
+  src: url('../assets/fonts/Grashrock.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2.5rem 0.75rem 1.25rem 0.75rem;
+    min-height: 0;
+}
+
+h1 {
+    font-size: 1.375rem;
+    margin-bottom: 2rem;
+    color: #000000;
+    text-align: center;
+    font-family: 'Grashrock', Arial, sans-serif;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 900px;
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.8);
+    padding: 1.5rem 1rem 2rem 1rem;
+}
+
+iframe {
+    width: 100%;
+    min-height: 800px;
+    border: none;
+    border-radius: 0.5rem;
+    background: #fafafa;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 2.5rem;
+        padding: 2rem 0 1rem 0;
+    }
+
+    .form-container {
+        max-width: 98vw;
+        padding: 1rem 0.5rem 1.5rem 0.5rem;
+        border-radius: 0.625rem;
+    }
+
+    iframe {
+        min-height: 600px;
+    }
+}

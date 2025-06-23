@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streetball Bovalino Calendario 2025</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/calendar-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <header>
+      <button id="hamburger" aria-label="Apri menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="menu" class="active">
+        <a href='info.html'>Info</a>
+        <a href='team-registration.html'>Squadra</a>
+        <a href='three-point-registration.html'>Gara da 3</a>
+        <a href='calendar.html'>Calendario</a>
+        <a href='rankings.html'>Classifiche</a>
+      </nav>
+    </header>
+    <div class="main-container">
+      <div class="calendar">
+        <h1>Calendario</h1>
+        <div style="overflow-x:auto; width:100%;">
+          <div id="calendar-content">
+            <h1>Caricamento...</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+    <script>
+      fetch('footer.html')
+        .then(res => res.text())
+        .then(html => { document.getElementById('footer-placeholder').innerHTML = html; });
+    </script>
+  </div>
+
+  </div>
+  <script src="../scripts/calendar.js"></script>
+</body>
+
+</html>
