@@ -11,22 +11,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 
-<body>
-  <div class="page-wrapper">
-    <header>
-      <button id="hamburger" aria-label="Apri menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <nav id="menu" class="active">
-        <a href='info.html'>Info</a>
-        <a href='team-registration.html'>Squadra</a>
-        <a href='three-point-registration.html'>Gara da 3</a>
-        <a href='calendar.html'>Calendario</a>
-        <a href='rankings.html'>Classifiche</a>
-      </nav>
-    </header>
+<body>  <div class="page-wrapper">
+    <div id="menu-placeholder"></div>
+    <script>
+      fetch('menu.html')
+        .then(res => res.text())
+        .then(html => { 
+          document.getElementById('menu-placeholder').innerHTML = html; 
+          // Inizializza il menu dopo il caricamento
+          const hamburger = document.getElementById('hamburger');
+          const menu = document.getElementById('menu');
+          if (hamburger && menu) {
+            hamburger.addEventListener('click', function () {
+              menu.classList.toggle('open');
+            });
+            menu.querySelectorAll('a').forEach(link => {
+              link.addEventListener('click', () => {
+                menu.classList.remove('open');
+              });
+            });
+          }
+        });
+    </script>
     <main>
       <div class="form-container">
         <iframe

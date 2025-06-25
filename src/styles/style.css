@@ -3,6 +3,8 @@
   font-family: 'Grashrock';
   src: url('../assets/fonts/Grashrock.ttf') format('truetype');
   font-display: swap;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Base Reset */
@@ -95,6 +97,20 @@ main {
 #menu a:focus-visible {
   outline: 2px solid #f47d00;
   outline-offset: 2px;
+}
+
+/* Link disabilitati */
+#menu a.disabled {
+  color: #666666;
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#menu a.disabled:hover,
+#menu a.disabled:focus {
+  transform: none;
+  color: #666666;
 }
 
 /* -------- HAMBURGER -------- */
