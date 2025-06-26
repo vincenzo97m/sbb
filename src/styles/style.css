@@ -237,9 +237,11 @@ main {
     text-align: center;
     margin-top: 2rem;
     max-width: 99vw;
-    font-size: 1.375rem;
+    font-size: 1rem;
     padding: 0.75rem 0.25rem 1rem;
     align-items: center;
+    margin: 1rem;
+  
   }
 
   .info-container h2 {
