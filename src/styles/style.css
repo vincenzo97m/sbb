@@ -146,7 +146,7 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 2rem;
   margin: 2rem;
   align-items: center;
@@ -167,7 +167,8 @@ main {
   text-align: center;
   display: block;
   margin: 0.5rem 0;
-  font-family: Verdana, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
 }
 
 .info-container a {
