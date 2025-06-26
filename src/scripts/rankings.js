@@ -42,7 +42,9 @@ function renderRankingTable(data, containerId) {
 const classifiche = {
     "ranking-open-maschile": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSR53eUzgnaH3Fn_E7uDR7gxuKolf2VuxO7Kp3c6z6SlgptNJWhWDcBGARhjQbK83qxmu6AGzXrpG_e/pub?gid=0&single=true&output=csv",
     "ranking-open-femminile": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSR53eUzgnaH3Fn_E7uDR7gxuKolf2VuxO7Kp3c6z6SlgptNJWhWDcBGARhjQbK83qxmu6AGzXrpG_e/pub?gid=112140575&single=true&output=csv",
-    "ranking-under-17": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSR53eUzgnaH3Fn_E7uDR7gxuKolf2VuxO7Kp3c6z6SlgptNJWhWDcBGARhjQbK83qxmu6AGzXrpG_e/pub?gid=909698791&single=true&output=csv",
+    "ranking-open-misto": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSR53eUzgnaH3Fn_E7uDR7gxuKolf2VuxO7Kp3c6z6SlgptNJWhWDcBGARhjQbK83qxmu6AGzXrpG_e/pub?gid=1137452448&single=true&output=csv",
+    "ranking-under-16M": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSR53eUzgnaH3Fn_E7uDR7gxuKolf2VuxO7Kp3c6z6SlgptNJWhWDcBGARhjQbK83qxmu6AGzXrpG_e/pub?gid=909698791&single=true&output=csv",
+    "ranking-under-16F": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSR53eUzgnaH3Fn_E7uDR7gxuKolf2VuxO7Kp3c6z6SlgptNJWhWDcBGARhjQbK83qxmu6AGzXrpG_e/pub?gid=1593583579&single=true&output=csv",
     "ranking-under-14": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSR53eUzgnaH3Fn_E7uDR7gxuKolf2VuxO7Kp3c6z6SlgptNJWhWDcBGARhjQbK83qxmu6AGzXrpG_e/pub?gid=724036286&single=true&output=csv"
 };
 

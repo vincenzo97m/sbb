@@ -148,7 +148,7 @@ main {
   text-align: center;
   font-size: 2rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem;
   align-items: center;
 }
 
@@ -241,7 +241,6 @@ main {
     padding: 0.75rem 0.25rem 1rem;
     align-items: center;
     margin: 1rem;
-  
   }
 
   .info-container h2 {
