@@ -4,9 +4,6 @@ async function fetchCSV(url) {
     return text.trim().split("\n").map(row => row.split(","));
 }
 
-
-
-
 function renderRankingTable(data, containerId) {
     const container = document.getElementById(containerId);
     const table = document.createElement("table");
